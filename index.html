@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class='flexbox-container root'>
+  
+  <h1 id="title">Wikipedia Viewer</h1>
+  <div class='form-div'>
+      <form id="search-form">
+        <div class='input-group search'>
+          <input id='search-input' class='form-control' type='text' name='searchText' placeholder="Search">
+          <div class="input-group-btn">
+            <button id="search-btn" class="btn btn-default" type="button">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  <div class="text-center">
+  <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class='input-group-btn'><button id="random-btn" class="btn btn-primary">Random Article</button></a></div>
+  <div id='container' class='flexbox-container'>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
